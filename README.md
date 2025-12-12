@@ -80,7 +80,7 @@ python run.py \
 
 ```bash
 # Launch Streamlit web interface
-streamlit run streamlit_app.py
+streamlit run demo.py
 ```
 Link to demo:([sit-demo.streamlit.app](https://sit-demo.streamlit.app))
 Opens browser at `http://localhost:8501` with:
@@ -193,7 +193,7 @@ python run.py \
 **Option 3: Upload via Streamlit (Easiest)**
 ```bash
 # Launch Streamlit app
-streamlit run streamlit_app.py
+streamlit run demo.py
 
 # Live Testing Tab  
 # - Select a pre-trained model
@@ -260,7 +260,7 @@ python run.py \
     --batch_size 32
 
 # 4. Launch dashboard
-streamlit run streamlit_app.py
+streamlit run demo.py
 ```
 
 **Expected outcomes:**
@@ -304,7 +304,7 @@ SIT/
 │   └── positions_*.csv           # Daily portfolio weights
 │
 ├── run.py                        # CLI training script
-├── streamlit_app.py              # Interactive web dashboard
+├── demo.py              # Interactive web dashboard
 ├── precompute_signatures.py      # Optional: precompute for speed
 ├── requirements.txt              # Python dependencies
 └── README.md                     # This file
@@ -402,7 +402,7 @@ python run.py --data_pool 30 --cvar_alpha 0.99  # More conservative
 
 ### Example 2: Test on Custom Data (Streamlit)
 
-1. Launch app: `streamlit run streamlit_app.py`
+1. Launch app: `streamlit run demo.py`
 2. Navigate to "Live Testing" tab
 3. Select trained model from dropdown
 4. Upload CSV with Date + asset prices
@@ -543,7 +543,7 @@ python run.py --data_pool 10 --window_size 30 --horizon 10 --train_epochs 5
 
 Complete documentation is available in the Streamlit dashboard:
 
-1. Run `streamlit run streamlit_app.py`
+1. Run `streamlit run demo.py`
 2. Navigate to "Documentation" tab
 3. Covers:
    - Introduction to SIT
