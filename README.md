@@ -2,6 +2,8 @@
 
 **Academic Implementation of Path Signature-Based Portfolio Optimization**
 
+Link to demo:([sit-demo.streamlit.app](https://sit-demo.streamlit.app))
+
 > **Note:** This project is implemented in good faith as an academic exercise to understand and apply advanced portfolio optimization techniques combining Rough Path Theory, transformer architectures, and risk-aware optimization. The implementation closely follows the methodology from published research while adapting it for educational purposes.
 
 ## 📋 Project Overview
@@ -80,7 +82,7 @@ python run.py \
 # Launch Streamlit web interface
 streamlit run streamlit_app.py
 ```
-
+Link to demo:([sit-demo.streamlit.app](https://sit-demo.streamlit.app))
 Opens browser at `http://localhost:8501` with:
 - Dashboard with performance metrics
 - Interactive training interface
@@ -575,8 +577,8 @@ All modules include comprehensive docstrings:
 - **Original research:** Hwang & Zohren for the SIT methodology
 - **Data source:** Yahoo Finance for historical price data
 - **Frameworks:** PyTorch (deep learning), Streamlit (dashboard), Plotly (visualizations)
-- **Collaboration:** Portfolio Transformer baseline implemented by Angie
-- **Computing:** Apple M4 Mac, conda environment configuration
+- **Collaboration:** Portfolio Transformer implemented by Angie
+- **Computing:** Apple M4 Mac, venv/conda environment configuration
 
 ## 📄 License & Disclaimer
 
@@ -595,7 +597,7 @@ This implementation is created in good faith for academic research and education
 
 **Project Team:**  
 - **Vaibhav Desai** - SIT Implementation & Streamlit Dashboard
-- **Angie** - Portfolio Transformer Baseline
+- **Angie** - Portfolio Transformer 
 
 **Academic Information:**  
 - **Institution:** Northeastern University
